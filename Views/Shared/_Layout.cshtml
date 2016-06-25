@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>@ViewBag.Title</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/css/modern-business.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet"
+          href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+
+    </script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+    <script type="text/javascript"
+            src="http://maps.google.com/maps/api/js?v=3&sensor=false&language=en"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3&sensor=false&language=en"></script>
+
+
+    <script src="~/Scripts/jquery-2.1.4.min.js"></script>
+    <!--<link href="~/css/bootstrap.css" rel="stylesheet" />-->
+    <link rel="stylesheet" href="~/StyleSheet1.css" />
+    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    
+</head>
+<body style="margin-left:14%; margin-right:14%;   font-family:Arial, Helvetica, sans-serif;">
+
+    <div class="" style=" box-shadow:inset; background-color:white ">
+
+        <img src="~/Images/ghsaa logo with white background parise.jpg" style="width:100px; height:100px;" />
+        <span style=" opacity: .5;  color:rgb(37, 60, 122); text-shadow: 2px 2px 4px #000f00; font-size:large; color: rgb(37, 60, 122) font-family:Arial, Helvetica, sans-serif;">Serving Sudanese Americans Community Greater Houston </span>
+      
+
+
+    </div>
+    <div style="background-color:white">
+        <div class="row">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-9">
+                <nav class="navbar" role="navigation">
+                    <div class="container">
+                        <!-- Brand and toggle get groupe:d for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+
+                            </button>
+
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                                     </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+
+                                    <li id="li1" class="dropdown">
+
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Our Mission </b></a>
+
+                                        <ul id="ul1" class="dropdown-menu">
+                                            <li style=" border-bottom: 1px solid rgb(229, 230, 221); border-bottom: 1px solid rgb(229, 230, 221)">
+                                                <strong class="glyphicon  glyphicon-play black"> @Html.ActionLink("testing", "", "Home", new { @style = "font-family:Hevetoca san-serif" })</strong>
+                                            </li>
+
+                                            <li style="border-bottom: 1px solid rgb(229, 230, 221)"><strong class="glyphicon  glyphicon-play black"> @Html.ActionLink("testing ", " ", "Home")</strong> </li>
+
+                                            <li style="border-bottom: 1px solid rgb(229, 230, 221)">
+                                                <strong class="glyphicon  glyphicon-play black ">
+                                                    @Html.ActionLink("testing", "", "Home", new { @style = "font-family:Helvitica" })
+                                                </strong>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li id="li2" class="dropdown">
+
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>About Us </b></a>
+
+                                        <ul id="ul2" class="dropdown-menu">
+                                            <li style="border-bottom: 1px solid rgb(229, 230, 221)">
+                                                @*<strong class="glyphicon  glyphicon-play  black"> @Html.ActionLink("testing", " ", "Home")</strong>*@
+                                            </li>
+                                            @*<li style="border-bottom: 1px solid rgb(229, 230, 221)"><strong class="glyphicon  glyphicon-play  black"> @Html.ActionLink("Leadership Team", "LeadershipTeam", "Home")</strong></li>*@
+                                            @*<li><strong class="glyphicon glyphicon-play ">@Html.ActionLink("", "", "Home")</strong> </li>*@
+                                        </ul>
+                                    </li>
+
+                                    <li id="li2" class="dropdown">
+
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Contact Us </b></a>
+
+                                        <ul id="ul2" class="dropdown-menu">
+                                            <li>
+                                                <span class="glyphicon  glyphicon-play  black"> @Html.ActionLink("Contact Us", "Contact", "Home", new { @style = "font-family:Helvitica san-serif" })</span>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li>@Html.Partial("_LoginPartial") </li>
+
+                                </ul>
+
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </div>
+                    <!-- /.container -->
+                </nav>
+
+
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <div id="footer" style=" background-color:white;padding: 7px 7px 7px 7px">
+        <div id="bottomNav">
+            @Html.ActionLink("Home", "Index", "Home")|  @Html.ActionLink("Contact Us", "", "Home")</div>
+        <div class="row">
+            <div id="bottomLogo" class="col-sm-3">
+                <a href="index.php"><img src="~/Images/ghsaa.jpg" style="width:30px;height:30px;" alt="Tagos logo" border="0" /></a>
+            </div>
+            <div id="bottomTagosLLC" class="col-sm-3">
+                <strong>Greater Houston Sudanese American Association LLC</strong>
+            </div>
+
+            <div id="bottomAddress" class="col-sm-3"  style=" font-family:Verdana; font-weight:200">
+
+              
+            </div>
+
+            <div id="bottmPhone" class="col-sm-3" style=" font-family:Verdana; font-weight:100">
+                P: (832) 206-2913<br />
+
+                
+            </div>
+        </div>
+        <div id="botomCopyRight" class="footer">&copy; 2016   Greater Houston Sudanese American Association   LLC.  All rights reserved. </div>
+        
+    </div>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
