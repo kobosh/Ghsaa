@@ -12,7 +12,7 @@ namespace Ghsaa.Controllers
     //[RequireHttps]
     public class HomeController : Controller
     {
-
+//add constructor for DI
       
         public ActionResult Index()
         {
